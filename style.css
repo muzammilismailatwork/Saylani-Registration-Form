@@ -1,0 +1,128 @@
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+.background{
+    background-image: url('./assets/background.png');
+    background-repeat: no-repeat;
+    background-size: cover;
+    width: 100%;
+}
+.btn:hover{
+    border: none;
+}
+.btn a{
+    text-decoration: none;
+}
+.logo img{
+    height: 85%;
+    width: 80%;
+    
+}
+.icon{
+    height: 85%;
+    width: 10%;
+}
+.portel_btn{
+    border: 1px solid #0d6db7;
+    color: #0d6db7;
+    border-radius: 50px;
+    background-color: transparent;
+}
+.register_btn{
+    padding: 5px 10px;
+    margin: 0px 1px;
+    color: #0d6db7;
+    border: 1px solid #f0f0f0;
+    background-color: #fafafa;
+}
+.id_card_btn{
+    padding: 5px 10px;
+    margin: 0px 1px;
+    color: #0d6db7 !important;
+    border: 1px solid #f0f0f0;
+    background-color: #fafafa;
+}
+.result_btn{
+    padding: 5px 10px;
+    margin: 0px 1px;
+    color: #0d6db7 !important;
+    border: 1px solid #f0f0f0;
+    background-color: #fafafa;
+    
+}
+.inputBorder{
+    border-color: #8dc63f !important;
+    font-size: 0.9rem !important;
+    height: 54px;
+}
+.labelText{
+    font-size: 0.9rem !important;
+    color: #0d6db7;
+}
+.inputBorder:hover{
+    border-color: #0d6db7 !important;
+}
+.listText{
+    font-size: 0.9rem !important;
+
+}
+.submitBtn{
+    width: 100%;
+    background-color: #0d6db7;
+    height: 40px;
+    color: white;
+    border: none;
+}
+ul{
+    list-style: none;
+}
+input[type="file"]{
+    display: none;
+}
+.upload label{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    color: black;
+    background: #f8f9fa;
+    text-align: center;
+    justify-content: center;
+    height: 100px;
+    width: 100px;
+    border: 1px dashed black;
+    font-size: 0.9rem !important;
+    border-radius: 5%;
+    user-select: none;
+    cursor: pointer;
+}
+.upload label:hover{
+    border: 1px dashed #0d6db7;
+}
+
+.small{
+    display: flex;
+}
+@media only screen and (max-width: 600px) {
+    .upload label{
+        color: black;
+        background: #f8f9fa;
+        text-align: center;
+        height: 100px;
+        width: 100px;
+        border: 1px dashed black;
+        font-size: 0.6rem !important;
+        border-radius: 5%;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        cursor: pointer;
+    }
+    .icon{
+        height: 55%;
+        width: 7%;
+    }
+        
+    
+}
